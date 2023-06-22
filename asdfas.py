@@ -1,0 +1,7 @@
+layout = QGridLayout(self)
+layout.addWidget(self.labelbenutzername, 0, 0, Qt.AlignmentFlag.AlignLeft)
+layout.addWidget(self.textbenutzername, 0, 1, Qt.AlignmentFlag.AlignLeft)
+layout.addWidget(self.labelpasswort, 1, 1, Qt.AlignmentFlag.AlignLeft)
+layout.addWidget(self.textpasswort, 1, 2, Qt.AlignmentFlag.AlignLeft)
+layout.addWidget(self.button, 2, 1, Qt.AlignmentFlag.AlignTop)
+layout.addWidget(self.buttonschliesen, 2, 2)
